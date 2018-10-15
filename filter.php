@@ -19,7 +19,7 @@ $filter = [
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;max-width: 900px;Margin-bottom:10px;" class="nlimage">',
         ],
         [
-            'pattern' => '/<a.*?>/i',
+            'pattern' => '/<a. *?>/i',
             'replacement' => '<a style="color:#0099cc;text-decoration:none;">',
         ],
         [
@@ -53,7 +53,7 @@ $filter = [
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;margin-bottom:10px;">',
         ],
         [
-            'pattern' => '/<a.*?>/i',
+            'pattern' => '/<a. *?>/i',
             'replacement' => '<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #5f7495;">',
         ],
         [
@@ -87,7 +87,7 @@ $filter = [
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;margin-bottom:10px;">',
         ],
         [
-            'pattern' => '/<a.*?>/i',
+            'pattern' => '/<a. *?>/i',
             'replacement' => '<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #5f7495;">',
         ],
         [
