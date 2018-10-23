@@ -23,8 +23,8 @@ $filter = [
             'replacement' => '<a style="color:#0099cc;text-decoration:none;">',
         ],
         [
-            'pattern' => '/<ul.*?>/i',
-            'replacement' => '<ul <!--[if !mso]--> style="margin-left:0px;padding-left:24px;"<!--[endif]--><!--[if (mso)|(IE)]> style="margin-left:22px;"<![endif]-->>',
+            'pattern' => '/<\/ul>/i',
+            'replacement' => '</ul> <!--[if!mso]><style type="text/css">ul{margin-left:0;padding-left:24px}</style><![endif]--><!--[if(mso)|(IE)]><style type="text/css">ul{margin-left:22px} </style> <![endif]-->',
         ],
         [
             'pattern' => '/<figcaption.*?>/i',
@@ -57,8 +57,8 @@ $filter = [
             'replacement' => '<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #5f7495;">',
         ],
         [
-            'pattern' => '/<ul.*?>/i',
-            'replacement' => '<ul <!--[if !mso]--> style="margin-left:0px;padding-left:24px;"<!--[endif]--><!--[if (mso)|(IE)]> style="margin-left:22px;"<![endif]-->>',
+            'pattern' => '/<\/ul>/i',
+            'replacement' => '</ul> <!--[if!mso]><style type="text/css">ul{margin-left:0;padding-left:24px}</style><![endif]--><!--[if(mso)|(IE)]><style type="text/css">ul{margin-left:22px} </style> <![endif]-->',
         ],
         [
             'pattern' => '/<figcaption.*?>/i',
@@ -91,8 +91,8 @@ $filter = [
             'replacement' => '<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #5f7495;">',
         ],
         [
-            'pattern' => '/<ul.*?>/i',
-            'replacement' => '<ul <!--[if !mso]--> style="margin-left:0px;padding-left:24px;"<!--[endif]--><!--[if (mso)|(IE)]> style="margin-left:22px;"<![endif]-->>',
+            'pattern' => '/<\/ul>/i',
+            'replacement' => '</ul> <!--[if!mso]><style type="text/css">ul{margin-left:0;padding-left:24px}</style><![endif]--><!--[if(mso)|(IE)]><style type="text/css">ul{margin-left:22px} </style> <![endif]-->',
         ],
         [
             'pattern' => '/<hr.*?>/i',
