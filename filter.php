@@ -15,7 +15,7 @@ $filter = [
             'replacement' => '<h4 style="text-align:center;line-height:1.5em;font-size:25px;">',
         ],
         [
-            'pattern' => '/<img\s+',
+            'pattern' => '/<img\s+/i',
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;max-width: 900px;Margin-bottom:10px;" class="nlimage"',
         ],
         [
@@ -61,7 +61,7 @@ $filter = [
             'replacement' => '<h4 style="text-align:center;line-height:1.5em;font-size:25px;">',
         ],
         [
-            'pattern' => '/<img\s+',
+            'pattern' => '/<img\s+/i',
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;margin-bottom:10px;"',
         ],
         [
@@ -107,7 +107,7 @@ $filter = [
             'replacement' => '<h4 style="text-align:center;line-height:1.5em;font-size:25px;">',
         ],
         [
-            'pattern' => '/<img\s+',
+            'pattern' => '/<img\s+/i',
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;margin-bottom:10px;"',
         ],
         [
