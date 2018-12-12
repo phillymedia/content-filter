@@ -19,8 +19,8 @@ $filter = [
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;max-width: 900px;Margin-bottom:10px;" class="nlimage"',
         ],
         [
-            'pattern' => '/<a class="title-article-rss".*?>/i',
-            'replacement' => '<a class="title-article-rss" style="color:#0099cc;text-decoration:none;font-size:24px;">',
+            'pattern' => '/<a class="title-article-rss".*?/i',
+            'replacement' => '<a class="title-article-rss" style="color:#0099cc;text-decoration:none;font-size:24px;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
@@ -31,8 +31,8 @@ $filter = [
             'replacement' => '<div class="label-caption-rss" style="color:#9B9B9B;line-height:19px;font-size:12px;">',
         ],
         [
-            'pattern' => '/<a (?!class="title-article-rss").*?>/i',
-            'replacement' => '<a style="color:#0099cc;text-decoration:none;">',
+            'pattern' => '/<a (?!class="title-article-rss").*?/i',
+            'replacement' => '<a style="color:#0099cc;text-decoration:none;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
@@ -65,8 +65,8 @@ $filter = [
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;margin-bottom:10px;"',
         ],
         [
-            'pattern' => '/<a class="title-article-rss".*?>/i',
-            'replacement' => '<a class="title-article-rss" style="color:#0099cc;text-decoration:none;font-size:24px;">',
+            'pattern' => '/<a class="title-article-rss".*?/i',
+            'replacement' => '<a class="title-article-rss" style="color:#0099cc;text-decoration:none;font-size:24px;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
@@ -77,8 +77,8 @@ $filter = [
             'replacement' => '<div class="label-caption-rss" style="color:#9B9B9B;line-height:19px;font-size:12px;">',
         ],
         [
-            'pattern' => '/<a (?!class="title-article-rss").*?>/i',
-            'replacement' => '<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #5f7495;">',
+            'pattern' => '/<a (?!class="title-article-rss").*?/i',
+            'replacement' => '<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #5f7495;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
@@ -111,8 +111,8 @@ $filter = [
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;margin-bottom:10px;"',
         ],
         [
-            'pattern' => '/<a class="title-article-rss".*?>/i',
-            'replacement' => '<a class="title-article-rss" style="color:#0099cc;text-decoration:none;font-size:24px;">',
+            'pattern' => '/<a class="title-article-rss".*?/i',
+            'replacement' => '<a class="title-article-rss" style="color:#0099cc;text-decoration:none;font-size:24px;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
@@ -123,8 +123,8 @@ $filter = [
             'replacement' => '<div class="label-caption-rss" style="color:#9B9B9B;line-height:19px;font-size:12px;">',
         ],
         [
-            'pattern' => '/<a (?!class="title-article-rss").*?>/i',
-            'replacement' => '<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #5f7495;">',
+            'pattern' => '/<a (?!class="title-article-rss").*?/i',
+            'replacement' => '<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #5f7495;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
