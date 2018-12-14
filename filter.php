@@ -20,7 +20,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="title-article-rss".*?/i',
-            'replacement' => '<a class="title-article-rss" style="color:#0099cc;text-decoration:none;font-size:24px;"',
+            'replacement' => '<a class="title-article-rss" style="color:#0099cc;text-decoration:none;font-size:24px;font-family:Avenir Bold;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
@@ -66,7 +66,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="title-article-rss".*?/i',
-            'replacement' => '<a class="title-article-rss" style="color:#0099cc;text-decoration:none;font-size:24px;"',
+            'replacement' => '<a class="title-article-rss" style="color:#e20909;text-decoration:none;font-size:18px;font-family:Avenir Bold;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
@@ -78,7 +78,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a (?!class="title-article-rss").*?/i',
-            'replacement' => '<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #5f7495;"',
+            'replacement' => '<a style="text-decoration: underline;color: #1155cc;font-size:15px;line-height:23px;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
