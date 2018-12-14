@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_GET['type']) && isset($_GET['url'])) {
+if (isset($_GET['url'])) {
     header('Content-type: application/xml');
     include 'filter.php';
     $url = $_GET['url'];
@@ -9,7 +9,7 @@ if (isset($_GET['type']) && isset($_GET['url'])) {
     $webpage = file_get_contents($url);
 
     if (!isset($filter[$filter_option])) {
-        exit;
+        $filter[$filter_option] = 'default';
     }
 
     foreach ($filter[$filter_option] as $regex) {
@@ -21,5 +21,5 @@ if (isset($_GET['type']) && isset($_GET['url'])) {
 
     echo $webpage;
 } else {
-    echo 'Please fill out url and type on the URL';
+    echo 'Please fill out the url parameter on the URL';
 }
