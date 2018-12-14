@@ -62,7 +62,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 class="font-family: Avenir Bold;font-size:18px;color:#e20909;font-weight:bold;">',
+            'replacement' => '<h3 style="font-family: Avenir Bold;font-size:18px;color:#e20909;font-weight:bold;">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
