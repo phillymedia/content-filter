@@ -12,7 +12,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="font-family: Avenir Bold;margin-top:15px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:18px;">',
+            'replacement' => '<h3 style="font-family: Avenir Bold;margin-top:15px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:18px;font-weight:bold;">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
@@ -24,11 +24,11 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="interstitial_link_element".*?/i',
-            'replacement' => '<a class="interstitial_link_element" style="font-family: Avenir Bold;color:#0099cc;font-size:24px;text-decoration:none;"',
+            'replacement' => '<a class="interstitial_link_element" style="font-family: Avenir Bold;color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
-            'replacement' => '<span class="label-author-rss" style="font-family: Avenir Bold;color:#666666;font-size:11px;line-height:23px;">',
+            'replacement' => '<span class="label-author-rss" style="font-family: Avenir Bold;color:#666666;font-size:11px;line-height:23px;font-weight:bold;">',
         ],
         [
             'pattern' => '/<div class="label-caption-rss".*?>/i',
@@ -62,7 +62,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 class="size-24" style="margin-top: 20px;margin-bottom: 0;font-style: normal;font-weight: normal;color: #222;font-size: 20px;line-height: 28px;font-family: sans-serif;font-weight:bold;">',
+            'replacement' => '<h3 class="font-family: Avenir Bold;font-size:18px;color:#e20909;font-weight:bold;">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
@@ -74,7 +74,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="interstitial_link_element".*?/i',
-            'replacement' => '<a class="interstitial_link_element" style="font-family: Avenir Bold;font-size:18px;color:#e20909;text-decoration:none;"',
+            'replacement' => '<a class="interstitial_link_element" style="font-family: Avenir Bold;font-size:18px;color:#e20909;text-decoration:none;font-weight:bold;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
