@@ -4,7 +4,7 @@ $filter = [
     'default' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="font-family: Avenir; color:#000000;font-size:15px;line-height:23px"',
+            'replacement' => '<p class="text_element" style="color:#000000;font-size:15px;line-height:23px"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
@@ -12,7 +12,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="font-family: Avenir Bold;margin-top:15px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:18px;font-weight:bold;">',
+            'replacement' => '<h3 style="margin-top:15px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:18px;font-weight:bold;">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
@@ -24,15 +24,15 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="interstitial_link_element".*?/i',
-            'replacement' => '<a class="interstitial_link_element" style="font-family: Avenir Bold;color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;"',
+            'replacement' => '<a class="interstitial_link_element" style="color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
-            'replacement' => '<span class="label-author-rss" style="font-family: Avenir Bold;color:#666666;font-size:11px;line-height:23px;font-weight:bold;">',
+            'replacement' => '<span class="label-author-rss" style="color:#666666;font-size:11px;line-height:23px;font-weight:bold;">',
         ],
         [
             'pattern' => '/<div class="label-caption-rss".*?>/i',
-            'replacement' => '<div class="label-caption-rss" style="font-family: Avenir;color:#9B9B9B;font-size:12px;line-height:19px;">',
+            'replacement' => '<div class="label-caption-rss" style="color:#9B9B9B;font-size:12px;line-height:19px;">',
         ],
         [
             'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
@@ -50,7 +50,7 @@ $filter = [
     'morning' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="font-family: Avenir; color:#000000;font-size:15px;line-height:23px"',
+            'replacement' => '<p class="text_element" style="color:#000000;font-size:15px;line-height:23px"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
@@ -58,7 +58,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="font-family: Avenir Bold;margin-top:15px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:18px;font-weight:bold;">',
+            'replacement' => '<h3 style="margin-top:15px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:18px;font-weight:bold;">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
@@ -70,15 +70,15 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="interstitial_link_element".*?/i',
-            'replacement' => '<a class="interstitial_link_element" style="font-family: Avenir Bold;color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;"',
+            'replacement' => '<a class="interstitial_link_element" style="color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
-            'replacement' => '<span class="label-author-rss" style="font-family: Avenir Bold;color:#666666;font-size:11px;line-height:23px;font-weight:bold;">',
+            'replacement' => '<span class="label-author-rss" style="color:#666666;font-size:11px;line-height:23px;font-weight:bold;">',
         ],
         [
             'pattern' => '/<div class="label-caption-rss".*?>/i',
-            'replacement' => '<div class="label-caption-rss" style="font-family: Avenir;color:#9B9B9B;font-size:12px;line-height:19px;">',
+            'replacement' => '<div class="label-caption-rss" style="color:#9B9B9B;font-size:12px;line-height:19px;">',
         ],
         [
             'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
@@ -96,7 +96,7 @@ $filter = [
     'phillies' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="font-family: Avenir; color:#000000;font-size:15px;line-height:23px"',
+            'replacement' => '<p class="text_element"style="color:#000000;font-size:15px;line-height:23px"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
@@ -108,7 +108,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="font-family: Avenir Bold;font-size:18px;color:#e20909;font-weight:bold;">',
+            'replacement' => '<h3 style="font-size:18px;color:#e20909;font-weight:bold;">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
@@ -120,7 +120,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="interstitial_link_element".*?/i',
-            'replacement' => '<a class="interstitial_link_element" style="font-family: Avenir Bold;font-size:18px;color:#e20909;text-decoration:none;font-weight:bold;"',
+            'replacement' => '<a class="interstitial_link_element" style="font-size:18px;color:#e20909;text-decoration:none;font-weight:bold;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
@@ -132,7 +132,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
-            'replacement' => '<a style="font-family: Avenir;color: #1155cc;font-size:15px;line-height:23px;text-decoration: underline;"',
+            'replacement' => '<a style="color: #1155cc;font-size:15px;line-height:23px;text-decoration: underline;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
