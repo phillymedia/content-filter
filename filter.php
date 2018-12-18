@@ -66,7 +66,7 @@ $filter = [
         ],
         [
             'pattern' => '/<img\s+/i',
-            'replacement' => '<img width="560" style="border: 0;display: block;height: auto;max-width: 900px;Margin-bottom:10px;" class="nlimage"',
+            'replacement' => '<img width="560" style="border-width:0;display:block;height:auto;Margin-bottom:10px;" class="nlimage"',
         ],
         [
             'pattern' => '/<a class="interstitial_link_element".*?/i',
