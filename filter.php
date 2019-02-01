@@ -204,7 +204,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="margin-top:15px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: PT Serif Bold;line-height: 32px">',
+            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: PT Serif Bold;line-height: 32px">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
