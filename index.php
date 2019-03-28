@@ -3,7 +3,8 @@
 if (isset($_GET['url'])) {
     header('Content-type: application/xml');
     include 'filter.php';
-    $url = $_GET['url'];
+    $random = substr(md5(mt_rand()), 0, 7);
+    $url = $_GET['url'].'&_='.$random;
     $filter_option = $_GET['type'];
 
     $webpage = file_get_contents($url);
