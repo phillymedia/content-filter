@@ -287,7 +287,7 @@ $filter = [
     'letseat' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: PT Serif"',
+            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
@@ -295,7 +295,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: PT Serif Bold;line-height: 32px">',
+            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:34px;font-weight:bold;line-height: 43px">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
@@ -315,11 +315,11 @@ $filter = [
         ],
         [
             'pattern' => '/<div class="label-caption-rss".*?>/i',
-            'replacement' => '<div class="label-caption-rss" style="color:#999999;font-size:11px;line-height:19px;font-family: Arial">',
+            'replacement' => '<div class="label-caption-rss" style="color:#777777;font-size:12px;line-height:19px;">',
         ],
         [
             'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
-            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 23px;font-family: PT Serif"',
+            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 32px;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
@@ -327,7 +327,7 @@ $filter = [
         ],
         [
             'pattern' => '/<figcaption.*?>/i',
-            'replacement' => '<figcaption style="margin-top:0;margin-bottom:0;font-size:11px;line-height:19px;color:#999999;font-family: Arial">',
+            'replacement' => '<figcaption style="margin-top:0;margin-bottom:0;font-size:12px;line-height:19px;color:#777777;font-family: Arial">',
         ],
     ],
 ];
