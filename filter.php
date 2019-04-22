@@ -241,19 +241,23 @@ $filter = [
     'clout' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: Avenir,sans-serif"',
+            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: sans-serif;"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
             'replacement' => '<blockquote style="font-size:14px;text-align:center;margin-top:25px;margin-bottom:25px;line-height:1.5;">',
         ],
         [
+            'pattern' => '/<h2.*?>/i',
+            'replacement' => '<h2 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: normal;color: #222;font-size: 20px;line-height: 28px;font-family: sans-serif;">',
+        ],
+        [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: PT Serif Bold;line-height: 32px">',
+            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: sans-serif;line-height: 32px">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
-            'replacement' => '<h4 style="text-align:center;line-height:28px;font-size:20px;color:#353538;font-family: Avenir Bold">',
+            'replacement' => '<h4 style="text-align:center;line-height:28px;font-size:20px;color:#353538;font-family: sans-serif;">',
         ],
         [
             'pattern' => '/<img\s+/i',
@@ -265,15 +269,15 @@ $filter = [
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
-            'replacement' => '<span class="label-author-rss" style="color:#666666;font-size:11px;line-height:23px;font-weight:bold;font-family: Avenir,sans-serif">',
+            'replacement' => '<span class="label-author-rss" style="color:#666666;font-size:11px;line-height:23px;font-weight:bold;font-family: sans-serif;">',
         ],
         [
             'pattern' => '/<div class="label-caption-rss".*?>/i',
-            'replacement' => '<div class="label-caption-rss" style="color:#999999;font-size:11px;line-height:19px;font-family: Avenir,sans-serif">',
+            'replacement' => '<div class="label-caption-rss" style="color:#999999;font-size:11px;line-height:19px;font-family: sans-serif;">',
         ],
         [
             'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
-            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 23px;font-family: Avenir,sans-serif"',
+            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 23px;font-family: sans-serif;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
@@ -281,7 +285,7 @@ $filter = [
         ],
         [
             'pattern' => '/<figcaption.*?>/i',
-            'replacement' => '<figcaption style="margin-top:0;margin-bottom:0;font-size:11px;line-height:19px;color:#999999;font-family: Avenir,sans-serif">',
+            'replacement' => '<figcaption style="margin-top:0;margin-bottom:0;font-size:11px;line-height:19px;color:#999999;font-family: sans-serif;">',
         ],
     ],
     'letseat' => [
@@ -294,8 +298,16 @@ $filter = [
             'replacement' => '<blockquote style="font-size:14px;text-align:center;margin-top:25px;margin-bottom:25px;line-height:1.5;font-family: Avenir,sans-serif">',
         ],
         [
+            'pattern' => '/<h1.*?>/i',
+            'replacement' => '<h1 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 34px;line-height: 43px;font-family: Avenir Bold,sans-serif;">',
+        ],
+        [
+            'pattern' => '/<h2.*?>/i',
+            'replacement' => '<h2 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 22px;line-height: 34px;font-family: Avenir Bold,sans-serif;">',
+        ],
+        [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:34px;font-weight:bold;line-height: 43px;font-family: Avenir Bold">',
+            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:26px;font-weight:bold;line-height: 34px;font-family: Avenir Bold">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
