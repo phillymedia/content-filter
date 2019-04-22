@@ -291,7 +291,7 @@ $filter = [
     'letseat' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: Avenir;"',
+            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
@@ -319,7 +319,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="interstitial_link_element".*?/i',
-            'replacement' => '<a class="interstitial_link_element" style="color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;"',
+            'replacement' => '<a class="interstitial_link_element" style="color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
@@ -331,7 +331,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
-            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 32px;font-family: Avenir;"',
+            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 32px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
