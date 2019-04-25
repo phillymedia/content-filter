@@ -299,19 +299,19 @@ $filter = [
         ],
         [
             'pattern' => '/<h1.*?>/i',
-            'replacement' => '<h1 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 34px;line-height: 43px;font-family: Avenir,sans-serif">',
+            'replacement' => '<h1 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 34px;line-height: 43px;font-family: Avenir Bold,sans-serif">',
         ],
         [
             'pattern' => '/<h2.*?>/i',
-            'replacement' => '<h2 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 22px;line-height: 34px;font-family: Avenir,sans-serif">',
+            'replacement' => '<h2 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 22px;line-height: 34px;font-family: Avenir Bold,sans-serif">',
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="margin-bottom:0px;padding-top:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:26px;font-weight:bold;line-height: 34px;font-family: Avenir Bold">',
+            'replacement' => '<h3 style="margin-bottom:0px;padding-top:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:26px;font-weight:bold;line-height: 34px;font-family: Avenir Bold,sans-serif">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
-            'replacement' => '<h4 style="text-align:center;line-height:28px;font-size:20px;color:#353538;font-family: Avenir Bold">',
+            'replacement' => '<h4 style="text-align:center;line-height:28px;font-size:20px;color:#353538;font-family: Avenir Bold,sans-serif">',
         ],
         [
             'pattern' => '/<img\s+/i',
@@ -327,7 +327,7 @@ $filter = [
         ],
         [
             'pattern' => '/<div class="label-caption-rss".*?>/i',
-            'replacement' => '<div class="label-caption-rss" style="color:#777777;font-size:12px;line-height:19px;font-family: Avenir;">',
+            'replacement' => '<div class="label-caption-rss" style="color:#777777;font-size:12px;line-height:19px;font-family: Avenir,sans-serif;">',
         ],
         [
             'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
@@ -339,7 +339,7 @@ $filter = [
         ],
         [
             'pattern' => '/<figcaption.*?>/i',
-            'replacement' => '<figcaption style="margin-top:0;margin-bottom:0;font-size:12px;line-height:19px;color:#777777;font-family: Avenir;">',
+            'replacement' => '<figcaption style="margin-top:0;margin-bottom:0;font-size:12px;line-height:19px;color:#777777;font-family: Avenir,sans-serif;">',
         ],
     ],
 ];
