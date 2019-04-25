@@ -241,7 +241,7 @@ $filter = [
     'clout' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: sans-serif;margin-top:-6px;"',
+            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: sans-serif;"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
@@ -253,7 +253,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;margin-top:10px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: sans-serif;line-height: 32px">',
+            'replacement' => '<h3 style="margin-top:10px;padding-top:10px;margin-bottom:0px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: sans-serif;line-height: 32px">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
@@ -291,7 +291,7 @@ $filter = [
     'letseat' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;margin-top:-6px;"',
+            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
@@ -307,7 +307,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="margin-top:15px;padding-top:10px; margin-top:10px;text-transform:uppercase;color:#222222;font-size:26px;font-weight:bold;line-height: 34px;font-family: Avenir Bold">',
+            'replacement' => '<h3 style="margin-bottom:0px;padding-top:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:26px;font-weight:bold;line-height: 34px;font-family: Avenir Bold">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
