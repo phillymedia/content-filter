@@ -245,7 +245,7 @@ $filter = [
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
-            'replacement' => '<blockquote style="font-size:14px;text-align:center;margin-top:25px;margin-bottom:25px;line-height:1.5;">',
+            'replacement' => '<blockquote style="font-size:14px;text-align:center;margin-top:25px;margin-bottom:25px;line-height:1.5;font-family: sans-serif;">',
         ],
         [
             'pattern' => '/<h2.*?>/i',
@@ -265,7 +265,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="interstitial_link_element".*?/i',
-            'replacement' => '<a class="interstitial_link_element" style="color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;"',
+            'replacement' => '<a class="interstitial_link_element" style="color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;font-family: sans-serif;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
@@ -323,7 +323,7 @@ $filter = [
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
-            'replacement' => '<span class="label-author-rss" style="color:#666666;font-size:11px;line-height:23px;font-weight:bold;font-family: Avenir">',
+            'replacement' => '<span class="label-author-rss" style="color:#666666;font-size:11px;line-height:23px;font-weight:bold;font-family: Avenir,sans-serif;">',
         ],
         [
             'pattern' => '/<div class="label-caption-rss".*?>/i',
