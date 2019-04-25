@@ -314,6 +314,10 @@ $filter = [
             'replacement' => '<h4 style="text-align:center;line-height:28px;font-size:20px;color:#353538;font-family: Avenir Bold,sans-serif">',
         ],
         [
+            'pattern' => '/<h5.*?>/i',
+            'replacement' => '<h5 style="color: #777;font-family: Avenir,sans-serif;font-size: 17px;font-style: normal;font-weight: 700;line-height: 26px;overflow-wrap: break-word;text-align: left;text-size-adjust: 100%;word-break: break-word">',
+        ],
+        [
             'pattern' => '/<img\s+/i',
             'replacement' => '<img width="560" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;margin-bottom:10px;" class="nlimage"',
         ],
