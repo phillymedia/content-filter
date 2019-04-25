@@ -299,11 +299,11 @@ $filter = [
         ],
         [
             'pattern' => '/<h1.*?>/i',
-            'replacement' => '<h1 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 34px;line-height: 43px;font-family: Avenir Bold,sans-serif;">',
+            'replacement' => '<h1 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 34px;line-height: 43px;font-family: Avenir,sans-serif">',
         ],
         [
             'pattern' => '/<h2.*?>/i',
-            'replacement' => '<h2 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 22px;line-height: 34px;font-family: Avenir Bold,sans-serif;">',
+            'replacement' => '<h2 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 22px;line-height: 34px;font-family: Avenir,sans-serif">',
         ],
         [
             'pattern' => '/<h3.*?>/i',
