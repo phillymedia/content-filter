@@ -241,7 +241,7 @@ $filter = [
     'clout' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: sans-serif;"',
+            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: sans-serif;margin-top:-6px;"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
@@ -291,7 +291,7 @@ $filter = [
     'letseat' => [
         [
             'pattern' => '/<p class="text_element".*?/i',
-            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
+            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;margin-top:-6px;"',
         ],
         [
             'pattern' => '/<blockquote.*?>/i',
