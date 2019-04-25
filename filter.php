@@ -253,7 +253,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: sans-serif;line-height: 32px">',
+            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;margin-top:10px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: sans-serif;line-height: 32px">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
@@ -307,7 +307,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="margin-top:15px;padding-top:10px;padding-bottom:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:26px;font-weight:bold;line-height: 34px;font-family: Avenir Bold">',
+            'replacement' => '<h3 style="margin-top:15px;padding-top:10px; margin-top:10px;text-transform:uppercase;color:#222222;font-size:26px;font-weight:bold;line-height: 34px;font-family: Avenir Bold">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
