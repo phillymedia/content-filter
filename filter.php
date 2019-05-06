@@ -1,5 +1,4 @@
 <?php
-
 $filter = [
     'default' => [
         [
@@ -237,6 +236,114 @@ $filter = [
         [
             'pattern' => '/<figcaption.*?>/i',
             'replacement' => '<figcaption style="margin-top:0;margin-bottom:0;font-size:11px;line-height:19px;color:#999999;font-family: Arial">',
+        ],
+    ],
+    'clout' => [
+        [
+            'pattern' => '/<p class="text_element".*?/i',
+            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: sans-serif;"',
+        ],
+        [
+            'pattern' => '/<blockquote.*?>/i',
+            'replacement' => '<blockquote style="font-size:14px;text-align:center;margin-top:25px;margin-bottom:25px;line-height:1.5;font-family: sans-serif;">',
+        ],
+        [
+            'pattern' => '/<h2.*?>/i',
+            'replacement' => '<h2 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: normal;color: #222;font-size: 20px;line-height: 28px;font-family: sans-serif;">',
+        ],
+        [
+            'pattern' => '/<h3.*?>/i',
+            'replacement' => '<h3 style="margin-top:10px;padding-top:10px;margin-bottom:0px;text-transform:uppercase;color:#353538;font-size:24px;font-weight:bold;font-family: sans-serif;line-height: 32px">',
+        ],
+        [
+            'pattern' => '/<h4.*?>/i',
+            'replacement' => '<h4 style="text-align:center;line-height:28px;font-size:20px;color:#353538;font-family: sans-serif;">',
+        ],
+        [
+            'pattern' => '/<img\s+/i',
+            'replacement' => '<img width="560" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;margin-bottom:10px;" class="nlimage"',
+        ],
+        [
+            'pattern' => '/<a class="interstitial_link_element".*?/i',
+            'replacement' => '<a class="interstitial_link_element" style="color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;font-family: sans-serif;"',
+        ],
+        [
+            'pattern' => '/<span class="label-author-rss".*?>/i',
+            'replacement' => '<span class="label-author-rss" style="color:#666666;font-size:11px;line-height:23px;font-weight:bold;font-family: sans-serif;">',
+        ],
+        [
+            'pattern' => '/<div class="label-caption-rss".*?>/i',
+            'replacement' => '<div class="label-caption-rss" style="color:#999999;font-size:11px;line-height:19px;font-family: sans-serif;">',
+        ],
+        [
+            'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
+            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 23px;font-family: sans-serif;"',
+        ],
+        [
+            'pattern' => '/<\/ul>/i',
+            'replacement' => '</ul> <!--[if!mso]><style type="text/css">ul{margin-left:0;padding-left:24px}</style><![endif]--><!--[if(mso)|(IE)]><style type="text/css">ul{margin-left:22px} </style> <![endif]-->',
+        ],
+        [
+            'pattern' => '/<figcaption.*?>/i',
+            'replacement' => '<figcaption style="margin-top:0;margin-bottom:0;font-size:11px;line-height:19px;color:#999999;font-family: sans-serif;">',
+        ],
+    ],
+    'letseat' => [
+        [
+            'pattern' => '/<p class="text_element".*?/i',
+            'replacement' => '<p class="text_element" style="color:#353638;font-size:15px;line-height:23px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
+        ],
+        [
+            'pattern' => '/<blockquote.*?>/i',
+            'replacement' => '<blockquote style="font-size:14px;text-align:center;margin-top:25px;margin-bottom:25px;line-height:1.5;font-family: Avenir,sans-serif">',
+        ],
+        [
+            'pattern' => '/<h1.*?>/i',
+            'replacement' => '<h1 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 34px;line-height: 43px;font-family: Avenir Bold,sans-serif">',
+        ],
+        [
+            'pattern' => '/<h2.*?>/i',
+            'replacement' => '<h2 style="Margin-top: 0;Margin-bottom: 16px;font-style: normal;font-weight: bold;color: #222;font-size: 22px;line-height: 34px;font-family: Avenir Bold,sans-serif">',
+        ],
+        [
+            'pattern' => '/<h3.*?>/i',
+            'replacement' => '<h3 style="margin-bottom:0px;padding-top:10px;margin-top:10px;text-transform:uppercase;color:#222222;font-size:26px;font-weight:bold;line-height: 34px;font-family: Avenir Bold,sans-serif">',
+        ],
+        [
+            'pattern' => '/<h4.*?>/i',
+            'replacement' => '<h4 style="text-align:center;line-height:28px;font-size:20px;color:#353538;font-family: Avenir Bold,sans-serif">',
+        ],
+        [
+            'pattern' => '/<h5.*?>/i',
+            'replacement' => '<h5 style="color: #777;font-family: Avenir,sans-serif;font-size: 17px;font-style: normal;font-weight: 700;line-height: 26px;overflow-wrap: break-word;text-align: left;text-size-adjust: 100%;word-break: break-word">',
+        ],
+        [
+            'pattern' => '/<img\s+/i',
+            'replacement' => '<img width="560" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;margin-bottom:10px;" class="nlimage"',
+        ],
+        [
+            'pattern' => '/<a class="interstitial_link_element".*?/i',
+            'replacement' => '<a class="interstitial_link_element" style="color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
+        ],
+        [
+            'pattern' => '/<span class="label-author-rss".*?>/i',
+            'replacement' => '<span class="label-author-rss" style="color:#666666;font-size:11px;line-height:23px;font-weight:bold;font-family: Avenir,sans-serif;">',
+        ],
+        [
+            'pattern' => '/<div class="label-caption-rss".*?>/i',
+            'replacement' => '<div class="label-caption-rss" style="color:#777777;font-size:12px;line-height:19px;font-family: Avenir,sans-serif;">',
+        ],
+        [
+            'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
+            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 32px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
+        ],
+        [
+            'pattern' => '/<\/ul>/i',
+            'replacement' => '</ul> <!--[if!mso]><style type="text/css">ul{margin-left:0;padding-left:24px}</style><![endif]--><!--[if(mso)|(IE)]><style type="text/css">ul{margin-left:22px} </style> <![endif]-->',
+        ],
+        [
+            'pattern' => '/<figcaption.*?>/i',
+            'replacement' => '<figcaption style="margin-top:0;margin-bottom:0;font-size:12px;line-height:19px;color:#777777;font-family: Avenir,sans-serif;">',
         ],
     ],
 ];
