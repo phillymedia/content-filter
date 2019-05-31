@@ -335,7 +335,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
-            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 32px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
+            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 23px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
