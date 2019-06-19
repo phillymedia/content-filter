@@ -326,6 +326,10 @@ $filter = [
             'replacement' => '<a class="interstitial_link_element" style="color:#0099cc;font-size:24px;text-decoration:none;font-weight:bold;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
         ],
         [
+            'pattern' => '/<span class="hr"><\/span>/i',
+            'replacement' => '<img style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;" alt="" width="560" src="https://i3.createsend1.com/ei/d/D5/42E/701/011506/csfinal/red-line1-990000079e04513c.gif">',
+        ],
+        [
             'pattern' => '/<span class="label-author-rss".*?>/i',
             'replacement' => '<span class="label-author-rss" style="color:#666666;font-size:11px;line-height:23px;font-weight:bold;font-family: Avenir,sans-serif;">',
         ],
@@ -335,7 +339,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a (?!class="interstitial_link_element").*?/i',
-            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 32px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
+            'replacement' => '<a style="color: #5f7495;text-decoration: underline;font-size: 15px;line-height: 23px;font-family: Lora,Palatino,Book Antiqua,Georgia,serif;"',
         ],
         [
             'pattern' => '/<\/ul>/i',
