@@ -4,7 +4,9 @@ if (isset($_GET['url'])) {
     header('Content-type: application/xml');
     include 'filter.php';
     $random = substr(md5(mt_rand()), 0, 7);
-    $url = $_GET['url'].'&_='.$random;
+    $queryString = $_SERVER['QUERY_STRING'];
+    $urlPart = substr($queryString, strpos($queryString, 'url=') + 4);
+    $url = $urlPart.'&_='.$random;
     $filter_option = $_GET['type'];
 
     $webpage = file_get_contents($url);
