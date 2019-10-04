@@ -157,7 +157,7 @@ $filter = [
         ],
         [
             'pattern' => '/<h3.*?>/i',
-            'replacement' => '<h3 style="font-size:18px;color:#e20909;font-weight:bold;">',
+            'replacement' => '<h3 style="font-size:18px;color:#233da6;font-weight:bold;">',
         ],
         [
             'pattern' => '/<h4.*?>/i',
@@ -169,7 +169,7 @@ $filter = [
         ],
         [
             'pattern' => '/<a class="interstitial_link_element".*?/i',
-            'replacement' => '<a class="interstitial_link_element" style="font-size:18px;color:##233da6;text-decoration:none;font-weight:bold;"',
+            'replacement' => '<a class="interstitial_link_element" style="font-size:18px;color:#233da6;text-decoration:none;font-weight:bold;"',
         ],
         [
             'pattern' => '/<span class="label-author-rss".*?>/i',
